@@ -9,7 +9,7 @@ namespace ui {
 
 namespace ui {
 	inline LPDIRECT3DDEVICE9 dev;
-	inline const char* window_title = "             Menu by ent0x";
+	inline const char* window_title = "Menu by ent0x";
 }
 
 namespace ui {
@@ -20,7 +20,7 @@ namespace ui {
 }
 
 namespace ui2 {
-	inline const char* window_title2 = "                      Menu by ent0x";
+	inline const char* window_title2 = "Menu by ent0x";
 	inline ImVec2 screen_res2{ 000, 000 };
 	inline ImVec2 window_size2{ 400, 270 };
 	inline DWORD  window_flags2 = ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar;
