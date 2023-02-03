@@ -131,6 +131,7 @@ void ui::init(LPDIRECT3DDEVICE9 device) {
     style.Colors[ImGuiCol_ResizeGripActive] = ImVec4(0.780000f, 0.820000f, 1.000000f, 0.900000f);
     style.Colors[ImGuiCol_TextSelectedBg] = ImVec4(0.000000f, 0.000000f, 1.000000f, 0.350000f);
     style.Colors[ImGuiCol_DragDropTarget] = ImVec4(1.000000f, 1.000000f, 0.000000f, 0.900000f);
+    ImGui::GetStyle().WindowTitleAlign = ImVec2(0.5f, 0.5f);
 
 
 	if (window_pos.x == 0) {
